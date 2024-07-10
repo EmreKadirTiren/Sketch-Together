@@ -1,10 +1,8 @@
-require('dotenv').config();
-
 var config = {
-    apiKey: process.env.apiKey,
-    authDomain: process.env.authDomain,
-    databaseURL: process.env.databaseURL,
-    storageBucket: process.env.storageBucket
+    apiKey: 'AIzaSyDcsGDmnt6BHFcvMrR5I5-Pk8yW_xjrr2g', // Can be exposed restrictions added// 
+    authDomain: 'sketchtogether-cc4bb.firebaseapp.com',  
+    databaseURL: 'https://console.firebase.google.com/u/0/project/sketchtogether-cc4bb/database/sketchtogether-cc4bb-default-rtdb/data/~2F', //database is read and write to make drawing possible
+    storageBucket: 'sketchtogether-cc4bb.appspot.com'
 }
 firebase.initializeApp(config)
 
