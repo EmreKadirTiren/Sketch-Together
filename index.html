@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Collaborative Sketch!</title>
-  </head>
+
+<head>
+  <title>Collab Sketch!</title>
+</head>
+
 <body>
   <div id="controls">
     <button id="saveDrawing">Save to Computer</button>
     <button id="clearDrawing">DELETE DRAWING</button>
   </div>
-
-  <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="main.js"></script>
+  <!-- Load Firebase and required components -->
+  <script src="https://www.gstatic.com/firebasejs/9.17.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.17.2/firebase-database-compat.js"></script>
+  <!-- Load p5.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  <!-- Load jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Load the main script -->
+  <script src="index.js"></script>
 </body>
+
 </html>
